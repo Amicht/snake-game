@@ -63,15 +63,15 @@ function level(){
     
     function level1(){
         game_settings.wall = [];
-        game_settings.goal = 15;
+        game_settings.goal = 10;
     }
     function level2(){
         game_settings.wall = setWall().centerBlock();
-        game_settings.goal = 15;
+        game_settings.goal = 10;
     }
     function level3(){
         game_settings.wall = setWall().centerLine();
-        game_settings.goal = 15;
+        game_settings.goal = 10;
     }
     
     return {

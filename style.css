@@ -62,9 +62,9 @@ body{
 }
 .arrows{
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin: auto;
+    margin-top: -5px;
+    width: 100px;
+    height: 100px; 
     background-color: darkblue;
     position: relative;
 }
@@ -78,6 +78,10 @@ button:hover{
 }
 .active-btn{
     background-color: rgb(4, 4, 56);
+}
+.arrow-btn{
+    width: 40px;
+    height: 40px;
 }
 #up{
     position: absolute;
@@ -167,7 +171,7 @@ button:hover{
 }
 @media screen and (max-width: 550px){
     .app{
-        margin-top: 40%;
+        margin-top: 30%;
     }
     .box{
         width: 30px;
