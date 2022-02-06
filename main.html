@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app container py-1">
+        <div id="game-level" class="game-info col-3 mx-auto mt-4">LEVEL:</div>
+        <div id="game-info" class="game-info col-3 mx-auto">eat rat - yam yam!</div>
+        <div id="board" class="board">
+        </div>
+        <section class="row">
+            <div class="left-triangle  col"></div>
+            <div id="game-control" class="pt-2 mx-auto col-1">
+                <div id="arrows" class="arrows">
+                    <button id="up" onclick="btnArrows(event)"><i class="bi bi-caret-up"></i></button>
+                    <button id="down" onclick="btnArrows(event)"><i class="bi bi-caret-down"></i></button>
+                    <button id="left" onclick="btnArrows(event)"><i class="bi bi-caret-left"></i></button>
+                    <button id="right" onclick="btnArrows(event)"><i class="bi bi-caret-right"></i></button>
+                </div>
+                <button id="start-btn">start</button>
+            </div>
+                <div class="right-triangle  col"></div>
+        </section>
+    </div>
+    <div id="game-over">
+        <div class="end-text">
+            <div id="end-title"> GAME OVER </div>
+            <p id="end-p">play again?</p>
+            <div>
+        </div>
+            <button id="play-again-btn" class="btn btn-success mt-3">yes</button>
+            <button id="close-btn" class="btn btn-primary mt-3">close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="presentation.js"></script>
+</body>
+</html>
