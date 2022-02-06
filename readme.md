@@ -3,7 +3,7 @@
 The classic Snake game - try it now!
 https://amicht.github.io/snake-game/main.html
 
-Goal: eat as many rats as you can, by moving the snake (corrently without levels or winnig option).
+Goal: eat as many rats as you can, by moving the snake.
 
 
 
