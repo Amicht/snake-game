@@ -49,7 +49,7 @@ start_btn.addEventListener(`click`,startGame,{once: true});
 
 function startGame(){
     lvl++;
-    game_level.innerHTML = `LEVEL: ${lvl}`;
+    game_level.innerHTML = `LEVEL ${lvl}`;
     copyInitSnkPos();
     tempo = game_settings.tempo;
     gameBoard(game_settings);
