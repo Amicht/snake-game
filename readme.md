@@ -9,6 +9,7 @@ The classic Snake game - [try it now!](https://amicht.github.io/snake-game/main.
 * The snake never stop moving.
 * If you hit the walls - you lose.
 * If you hit each of the screen borders - you lose. 
+* If you hit your own tail - you lose.
 
 You can move either by keyboard arrows or by clicking on the screen arrows.
 
